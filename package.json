@@ -4,6 +4,7 @@
   "description": "Web API Blog Project",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "server": "nodemon index.js",
     "cool-server": "nodemon -r esm index.js"
   },
@@ -24,6 +25,7 @@
   },
   "homepage": "https://github.com/LambdaSchool/Node-Blog#readme",
   "dependencies": {
+    "dotenv": "^8.0.0",
     "esm": "^3.2.25",
     "express": "^4.17.1",
     "knex": "^0.18.3",
